@@ -2,8 +2,8 @@
 
 Bonito is an open-source model for generating task-specific synthetic instruction tuning datasets conditioned on unannotated text.
 
-This repo contains the experiments from the Bonito paper.
-For the Bonito package, see [BatsResearch](https://github.com/BatsResearch/bonito)
+This repo contains code to reproduce the experiments from the Bonito paper.
+For the Bonito package, see the [bonito](https://github.com/BatsResearch/bonito) repo. 
 
 ## Table of Contents
 - [Bonito Experiments](#bonito-experiments)
@@ -26,7 +26,6 @@ To install all the relevant packages, run the following:
 conda create -n bonito-experiments python==3.9
 conda activate bonito-experiments
 pip3 install -r requirements.txt
-pip3 install deepspeed
 ```
 
 ## Training
@@ -101,7 +100,7 @@ python3 ctga/task_type_bonito.py --output_dir output/dataset/ctga-v1
 ### Training
 To train the Bonito model, run the following script:
 ```bash
-deepspeed training/train_bonito.py --model_name_or_path mistralai/Mistral-7B-v0.1 --training_type="bonito_training" --dataset_name ctga-v1 --output_dir output/model/bonito_ctga-v1_mistral --max_steps 100000 --max_eval_samples 10000
+deepspeed training/train_bonito.py --model_name_or_path mistralai/Mistral-7B-v0.1 --training_type="bonito_training" --dataset_name ctga-v1 --output_dir output/model/bonito_ctga-v1_mistral --max_steps 100000 --max_eval_samples 10000 --save_steps 10000 --save_total_limit 10
 ```
 
 ## Generating Instruction Tuning Datasets with Bonito
