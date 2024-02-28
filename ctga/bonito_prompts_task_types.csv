@@ -1,0 +1,324 @@
+dataset_name,dataset_config_name,template_name,task_type
+cosmos_qa,,context_answer_to_question,question generation
+cosmos_qa,,description_context_question_answer_text,multiple-choice question answering
+cosmos_qa,,description_context_question_text,question answering without choices
+cosmos_qa,,description_context_question_answer_id,multiple-choice question answering
+cosmos_qa,,context_description_question_answer_text,multiple-choice question answering
+cosmos_qa,,no_prompt_id,multiple-choice question answering
+cosmos_qa,,context_question_description_text,question answering without choices
+cosmos_qa,,no_prompt_text,multiple-choice question answering
+cosmos_qa,,context_description_question_answer_id,multiple-choice question answering
+cosmos_qa,,context_question_description_answer_id,multiple-choice question answering
+cosmos_qa,,context_description_question_text,question answering without choices
+cosmos_qa,,context_question_description_answer_text,multiple-choice question answering
+social_i_qa,,I was wondering,question answering without choices
+social_i_qa,,Show choices and generate answer,multiple-choice question answering
+social_i_qa,,Check if a random answer is valid or not,yes-no question answering
+social_i_qa,,Generate the question from the answer,question generation
+social_i_qa,,Generate answer,question answering without choices
+social_i_qa,,Show choices and generate index,multiple-choice question answering
+paws,labeled_final,task_description-no-label,paraphrase identification
+paws,labeled_final,Meaning,paraphrase identification
+paws,labeled_final,context-question-no-label,paraphrase identification
+paws,labeled_final,Rewrite-no-label,paraphrase identification
+paws,labeled_final,context-question,paraphrase identification
+paws,labeled_final,Concatenation,paraphrase identification
+paws,labeled_final,paraphrase-task,paraphrase generation
+paws,labeled_final,Concatenation-no-label,paraphrase identification
+paws,labeled_final,Meaning-no-label,paraphrase identification
+paws,labeled_final,PAWS-ANLI GPT3,paraphrase identification
+paws,labeled_final,Rewrite,paraphrase identification
+paws,labeled_final,PAWS-ANLI GPT3-no-label,paraphrase identification
+quail,,context_question_answer_description_id,multiple-choice question answering
+quail,,context_question_answer_description_text,multiple-choice question answering
+quail,,description_context_question_answer_id,multiple-choice question answering
+quail,,context_question_description_answer_text,multiple-choice question answering
+quail,,context_question_description_text,question answering without choices
+quail,,context_description_question_text,question answering without choices
+quail,,context_question_description_answer_id,multiple-choice question answering
+quail,,no_prompt_id,multiple-choice question answering
+quail,,context_description_question_answer_id,multiple-choice question answering
+quail,,description_context_question_text,question answering without choices
+quail,,no_prompt_text,multiple-choice question answering
+quail,,context_description_question_answer_text,multiple-choice question answering
+quail,,description_context_question_answer_text,multiple-choice question answering
+squad,,answer_question_given_context,extractive question answering
+squad,,given_context_answer_question_variation,extractive question answering
+squad,,given_context_generate_question,question generation
+squad,,jeopardy,question generation
+squad,,answer_the_question,extractive question answering
+squad,,answer_given_context_and_question,extractive question answering
+dream,,answer-to-dialogue,text generation
+dream,,baseline,multiple-choice question answering
+dream,,read_the_following_conversation_and_answer_the_question,multiple-choice question answering
+qasc,,qa_with_separated_facts_1,multiple-choice question answering
+qasc,,qa_with_separated_facts_3,multiple-choice question answering
+qasc,,qa_with_separated_facts_2,multiple-choice question answering
+wiki_hop,original,choose_best_object_interrogative_1,multiple-choice question answering
+wiki_hop,original,explain_relation,question answering without choices
+wiki_hop,original,generate_object,question answering without choices
+wiki_hop,original,generate_subject,question answering without choices
+wiki_hop,original,choose_best_object_affirmative_1,multiple-choice question answering
+wiki_hop,original,choose_best_object_affirmative_3,multiple-choice question answering
+wiki_hop,original,generate_subject_and_object,question answering without choices
+wiki_hop,original,choose_best_object_affirmative_2,multiple-choice question answering
+wiki_hop,original,choose_best_object_interrogative_2,multiple-choice question answering
+race,all,Taking a test,multiple-choice question answering
+race,all,Write a multi-choice question for the following article,question generation
+race,all,Read the article and answer the question (no option),question answering without choices
+race,all,Select the best answer (generate span),multiple-choice question answering
+race,all,Is this the right answer,yes-no question answering
+race,all,Write a multi-choice question (options given),question generation
+race,all,Select the best answer,multiple-choice question answering
+race,all,Select the best answer (no instructions),multiple-choice question answering
+hellaswag,,Topic without the ending answer,topic classification
+hellaswag,,Open-ended completion,sentence completion
+hellaswag,,Topic of the context,topic classification
+hellaswag,,Randomized prompts template,sentence completion
+hellaswag,,Predict ending with hint,sentence completion
+hellaswag,,Open-ended start,sentence completion
+hellaswag,,how_ends,sentence completion
+hellaswag,,if_begins_how_continues,sentence completion
+super_glue,boolq,after_reading,yes-no question answering
+super_glue,boolq,GPT-3 Style,yes-no question answering
+super_glue,boolq,I wonder…,yes-no question answering
+super_glue,boolq,yes_no_question,yes-no question answering
+super_glue,boolq,could you tell me…,yes-no question answering
+super_glue,boolq,exam,yes-no question answering
+super_glue,boolq,based on the following passage,yes-no question answering
+super_glue,boolq,exercise,yes-no question answering
+super_glue,boolq,based on the previous passage,yes-no question answering
+super_glue,boolq,valid_binary,yes-no question answering
+adversarial_qa,dbert,generate_question,question generation
+adversarial_qa,dbert,tell_what_it_is,extractive question answering
+adversarial_qa,dbert,question_context_answer,extractive question answering
+adversarial_qa,dbert,based_on,extractive question answering
+adversarial_qa,dbert,answer_the_following_q,extractive question answering
+adversarial_qa,dbidaf,based_on,extractive question answering
+adversarial_qa,dbidaf,answer_the_following_q,extractive question answering
+adversarial_qa,dbidaf,generate_question,question generation
+adversarial_qa,dbidaf,tell_what_it_is,extractive question answering
+adversarial_qa,dbidaf,question_context_answer,extractive question answering
+adversarial_qa,droberta,generate_question,question generation
+adversarial_qa,droberta,tell_what_it_is,extractive question answering
+adversarial_qa,droberta,question_context_answer,extractive question answering
+adversarial_qa,droberta,based_on,extractive question answering
+adversarial_qa,droberta,answer_the_following_q,extractive question answering
+quoref,,Guess Answer,extractive question answering
+quoref,,Answer Question Given Context,extractive question answering
+quoref,,Find Answer,extractive question answering
+quoref,,Context Contains Answer,extractive question answering
+quoref,,Given Context Answer Question,extractive question answering
+quoref,,What Is The Answer,extractive question answering
+quoref,,Answer Test,extractive question answering
+quoref,,Guess Title For Context,summarization
+quoref,,Found Context Online,extractive question answering
+quoref,,Answer Friend Question,extractive question answering
+duorc,ParaphraseRC,build_story_around_qa,text generation
+duorc,ParaphraseRC,decide_worth_it,extractive question answering
+duorc,ParaphraseRC,question_answering,extractive question answering
+duorc,ParaphraseRC,movie_director,extractive question answering
+duorc,ParaphraseRC,generate_question,question generation
+duorc,ParaphraseRC,extract_answer,extractive question answering
+duorc,ParaphraseRC,title_generation,summarization
+duorc,ParaphraseRC,answer_question,extractive question answering
+duorc,ParaphraseRC,generate_question_by_answer,question generation
+duorc,SelfRC,generate_question_by_answer,question generation
+duorc,SelfRC,movie_director,extractive question answering
+duorc,SelfRC,extract_answer,extractive question answering
+duorc,SelfRC,generate_question,question generation
+duorc,SelfRC,answer_question,extractive question answering
+duorc,SelfRC,build_story_around_qa,text generation
+duorc,SelfRC,question_answering,extractive question answering
+duorc,SelfRC,title_generation,summarization
+duorc,SelfRC,decide_worth_it,extractive question answering
+ropes,,prompt_beginning,extractive question answering
+ropes,,prompt_bottom_hint_beginning,extractive question answering
+ropes,,given_background_situation,extractive question answering
+ropes,,plain_bottom_hint,extractive question answering
+ropes,,plain_background_situation,extractive question answering
+ropes,,background_new_situation_answer,extractive question answering
+ropes,,background_situation_middle,extractive question answering
+ropes,,new_situation_background_answer,extractive question answering
+ropes,,prompt_mix,extractive question answering
+ropes,,read_background_situation,extractive question answering
+super_glue,record,Which one is the placeholder?,multiple-choice question answering
+super_glue,record,corrupted,extractive question answering
+super_glue,record,choose_between,multiple-choice question answering
+super_glue,record,"In the question above, the placeholder stands for",extractive question answering
+super_glue,record,What could the placeholder be?,multiple-choice question answering
+super_glue,record,trying_to_decide,multiple-choice question answering
+super_glue,record,the placeholder refers to…,extractive question answering
+super_glue,record,exercise,extractive question answering
+super_glue,record,pick_one_option,multiple-choice question answering
+super_glue,record,Can you figure out…,multiple-choice question answering
+amazon_polarity,,Is_this_review,sentiment
+amazon_polarity,,User_recommend_this_product,sentiment
+amazon_polarity,,Is_this_product_review_positive,sentiment
+amazon_polarity,,Is_this_review_negative,sentiment
+amazon_polarity,,convey_negative_or_positive_sentiment,sentiment
+amazon_polarity,,negative_or_positive_tone,sentiment
+amazon_polarity,,user_satisfied,sentiment
+amazon_polarity,,would_you_buy,sentiment
+amazon_polarity,,flattering_or_not,sentiment
+app_reviews,,categorize_rating_using_review,multiple-choice question answering
+app_reviews,,generate_review,text generation
+app_reviews,,convert_to_star_rating,multiple-choice question answering
+app_reviews,,convert_to_rating,question answering without choices
+imdb,,Movie Expressed Sentiment 2,sentiment
+imdb,,Reviewer Opinion bad good choices,sentiment
+imdb,,Reviewer Sentiment Feeling,sentiment
+imdb,,Writer Expressed Sentiment,sentiment
+imdb,,Movie Expressed Sentiment,sentiment
+imdb,,Text Expressed Sentiment,sentiment
+imdb,,Negation template for positive and negative,sentiment
+imdb,,Reviewer Enjoyment Yes No,sentiment
+imdb,,Reviewer Expressed Sentiment,sentiment
+imdb,,Reviewer Enjoyment,sentiment
+rotten_tomatoes,,Reviewer Opinion bad good choices,sentiment
+rotten_tomatoes,,Text Expressed Sentiment,sentiment
+rotten_tomatoes,,Reviewer Enjoyment Yes No,sentiment
+rotten_tomatoes,,Reviewer Enjoyment,sentiment
+rotten_tomatoes,,Movie Expressed Sentiment,sentiment
+rotten_tomatoes,,Writer Expressed Sentiment,sentiment
+rotten_tomatoes,,Movie Expressed Sentiment 2,sentiment
+rotten_tomatoes,,Reviewer Expressed Sentiment,sentiment
+rotten_tomatoes,,Reviewer Sentiment Feeling,sentiment
+yelp_review_full,,so_i_would,sentiment
+yelp_review_full,,based_on_that,sentiment
+yelp_review_full,,format_star,sentiment
+yelp_review_full,,this_place,sentiment
+yelp_review_full,,format_score,sentiment
+yelp_review_full,,on_a_scale,sentiment
+yelp_review_full,,format_rating,sentiment
+cnn_dailymail,3.0.0,write_an_outline,summarization
+cnn_dailymail,3.0.0,news_summary,summarization
+cnn_dailymail,3.0.0,2_or_3_sentences,summarization
+cnn_dailymail,3.0.0,tldr_summary,summarization
+cnn_dailymail,3.0.0,news_card_view,summarization
+cnn_dailymail,3.0.0,generate_story,text generation
+cnn_dailymail,3.0.0,sum_in_brief,summarization
+cnn_dailymail,3.0.0,news_stock,summarization
+cnn_dailymail,3.0.0,spice_up_story,text generation
+gigaword,,generate_summary_for_this,summarization
+gigaword,,reverse_writing,text generation
+gigaword,,make_a_title,summarization
+gigaword,,first_sentence_title,summarization
+gigaword,,TLDR,summarization
+gigaword,,write_its_sentence,summarization
+gigaword,,write_a_title_for_this_sentence,summarization
+gigaword,,in_a_nutshell,summarization
+gigaword,,write_an_article,text generation
+samsum,,Summarize this dialogue:,summarization
+samsum,,Given the above dialogue write a summary,summarization
+samsum,,Summarize:,summarization
+samsum,,To sum up this dialog,summarization
+samsum,,Generate a summary for this dialogue,summarization
+samsum,,Write a dialogue that match this summary,text generation
+samsum,,Sum up the following dialogue,summarization
+xsum,,DOC_write_summary_of_above,summarization
+xsum,,article_DOC_summary,summarization
+xsum,,DOC_how_would_you_rephrase_few_words,summarization
+xsum,,college_roommate_asked_DOC_so_I_recap,summarization
+xsum,,DOC_boils_down_to_simple_idea_that,summarization
+xsum,,summarize_DOC,summarization
+xsum,,summarize_this_DOC_summary,summarization
+xsum,,DOC_given_above_write_one_sentence,summarization
+xsum,,read_below_DOC_write_abstract,summarization
+xsum,,DOC_tldr,summarization
+ag_news,,classify_question_first,topic classification
+ag_news,,classify_with_choices_question_first,topic classification
+ag_news,,recommend,topic classification
+ag_news,,which_section_choices,topic classification
+ag_news,,which_section,topic classification
+ag_news,,classify_with_choices,topic classification
+ag_news,,classify,topic classification
+dbpedia_14,,given_list_what_category_does_the_paragraph_belong_to,topic classification
+dbpedia_14,,pick_one_category_for_the_following_text,topic classification
+glue,mrpc,generate_paraphrase,paraphrase generation
+glue,mrpc,want to know,paraphrase identification
+glue,mrpc,paraphrase,paraphrase identification
+glue,mrpc,equivalent,paraphrase identification
+glue,mrpc,generate_sentence,paraphrase generation
+glue,mrpc,replace,paraphrase identification
+glue,mrpc,same thing,paraphrase identification
+super_glue,wsc.fixed,does the pronoun refer to,coreference resolution
+super_glue,wsc.fixed,by p they mean,coreference resolution
+super_glue,wsc.fixed,in other words,coreference resolution
+super_glue,wsc.fixed,I think they mean,coreference resolution
+super_glue,wsc.fixed,does p stand for,coreference resolution
+super_glue,wsc.fixed,GPT-3 Style,coreference resolution
+super_glue,wsc.fixed,replaced with,coreference resolution
+super_glue,wsc.fixed,p is/are r,coreference resolution
+super_glue,wsc.fixed,the pronoun refers to,coreference resolution
+super_glue,wsc.fixed,Who or what is/are,coreference resolution
+super_glue,wic,question-context-meaning-with-label,word sense disambiguation
+super_glue,wic,question-context-meaning,word sense disambiguation
+super_glue,wic,grammar_homework,word sense disambiguation
+super_glue,wic,affirmation_true_or_false,word sense disambiguation
+super_glue,wic,GPT-3-prompt,word sense disambiguation
+super_glue,wic,same_sense,word sense disambiguation
+super_glue,wic,question-context,word sense disambiguation
+super_glue,wic,GPT-3-prompt-with-label,word sense disambiguation
+super_glue,wic,polysemous,word sense disambiguation
+super_glue,wic,similar-sense,word sense disambiguation
+super_glue,copa,exercise,sentence completion
+super_glue,copa,"…What could happen next, C1 or C2?",sentence completion
+super_glue,copa,i_am_hesitating,sentence completion
+super_glue,copa,plausible_alternatives,sentence completion
+super_glue,copa,"C1 or C2? premise, so/because…",sentence completion
+super_glue,copa,"…As a result, C1 or C2?",sentence completion
+super_glue,copa,best_option,sentence completion
+super_glue,copa,…which may be caused by,sentence completion
+super_glue,copa,more likely,sentence completion
+super_glue,copa,cause_effect,sentence completion
+super_glue,copa,…why? C1 or C2,sentence completion
+super_glue,copa,choose,sentence completion
+super_glue,rte,MNLI crowdsource,textual entailment
+super_glue,rte,guaranteed true,textual entailment
+super_glue,rte,can we infer,textual entailment
+super_glue,rte,GPT-3 style,textual entailment
+super_glue,rte,does this imply,textual entailment
+super_glue,rte,should assume,textual entailment
+super_glue,rte,does it follow that,textual entailment
+super_glue,rte,based on the previous passage,textual entailment
+super_glue,rte,justified in saying,textual entailment
+super_glue,rte,must be true,textual entailment
+super_glue,cb,can we infer,natural language inference
+super_glue,cb,based on the previous passage,natural language inference
+super_glue,cb,claim true/false/inconclusive,natural language inference
+super_glue,cb,does it follow that,natural language inference
+super_glue,cb,justified in saying,natural language inference
+super_glue,cb,always/sometimes/never,natural language inference
+super_glue,cb,GPT-3 style,natural language inference
+super_glue,cb,consider always/sometimes/never,natural language inference
+super_glue,cb,guaranteed true,natural language inference
+super_glue,cb,must be true,natural language inference
+super_glue,cb,guaranteed/possible/impossible,natural language inference
+super_glue,cb,does this imply,natural language inference
+super_glue,cb,MNLI crowdsource,natural language inference
+super_glue,cb,should assume,natural language inference
+super_glue,cb,take the following as truth,natural language inference
+anli,,MNLI crowdsource,natural language inference
+anli,,should assume,natural language inference
+anli,,does it follow that,natural language inference
+anli,,GPT-3 style,natural language inference
+anli,,based on the previous passage,natural language inference
+anli,,justified in saying,natural language inference
+anli,,take the following as truth,natural language inference
+anli,,must be true,natural language inference
+anli,,can we infer,natural language inference
+anli,,guaranteed/possible/impossible,natural language inference
+anli,,always/sometimes/never,natural language inference
+anli,,does this imply,natural language inference
+anli,,consider always/sometimes/never,natural language inference
+anli,,claim true/false/inconclusive,natural language inference
+anli,,guaranteed true,natural language inference
+quartz,,use_info_from_question_paragraph,multiple-choice question answering
+quartz,,paragraph_question_plain_concat,multiple-choice question answering
+quartz,,use_info_from_paragraph_question,multiple-choice question answering
+quartz,,answer_question_based_on,multiple-choice question answering
+quartz,,answer_question_below,multiple-choice question answering
+quartz,,read_passage_below_choose,multiple-choice question answering
+quartz,,having_read_above_passage,multiple-choice question answering
+quartz,,given_the_fact_answer_the_q,multiple-choice question answering

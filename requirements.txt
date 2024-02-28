@@ -1,0 +1,13 @@
+bitsandbytes==0.42.0
+transformers==4.36.2
+peft==0.7.1
+accelerate==0.25.0
+git+https://github.com/BatsResearch/bonito.git
+deepspeed==0.12.6
+evaluate
+promptsource
+datasets
+wandb
+protobuf<=3.20.2
+vllm
+scipy
