@@ -124,6 +124,10 @@ The training code is adapted from [Q-LoRA](https://github.com/artidoro/qlora). T
 ## Citation
 If you use Bonito in your research, please cite the following paper:
 ```
-<!-- add bibtex -->
+@article{bonito:arxiv24,
+  Author = {Nihal V. Nayak and Yiyang Nan and Avi Trost and Stephen H. Bach},
+  Title = {Learning to Generate Instruction Tuning Datasets for Zero-Shot Task Adaptation},
+  Volume = {arXiv:2402.18334 [cs.CL]},
+  Year = {2024}}
 ```
 
