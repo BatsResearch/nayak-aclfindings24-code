@@ -2,7 +2,7 @@
 
 Bonito is an open-source model for generating task-specific synthetic instruction tuning datasets conditioned on unannotated text.
 
-This repo contains code to reproduce the experiments from the Bonito paper.
+This repo contains code to reproduce the experiments from the [Bonito paper](https://arxiv.org/abs/2402.18334).
 For the Bonito package, see the [bonito](https://github.com/BatsResearch/bonito) repo. 
 
 ## Table of Contents
