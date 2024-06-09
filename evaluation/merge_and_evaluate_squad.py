@@ -182,23 +182,11 @@ def evaluate_exqa():
 
     # iterate over all the templates and save the results in the output directory
     for template_name, template in templates:
-        dataset = load_dataset("squadshifts", args.dataset_config_name)["test"]
+        dataset = load_dataset("squadshifts", args.dataset_name)["test"]
         column_names = dataset.column_names
 
-        if args.dataset_config_name == "reddit":
+        if args.dataset_name == "reddit":
             template.jinja = re.sub("Amazon", "Reddit", template.jinja)
-
-        if test_args.use_bonito:
-            jinja_template = re.sub(
-                re.escape(context), "{{copy_context}}", template.jinja
-            )
-            jinja_template = (
-                f"<|tasktype|>\nextractive question answering\n<|context|>\n{context.strip()}\n<|task|>\n"
-                + jinja_template
-            )
-            dataset = dataset.add_column("copy_context", ["{{context}}"] * len(dataset))
-            template.jinja = jinja_template
-            column_names = dataset.column_names
 
         def preprocess_squad_batch(examples):
             input = []
@@ -296,10 +284,6 @@ def evaluate_exqa():
         template_path = os.path.join(output_path, f"results_{template_name}.json")
         with open(template_path, "w+") as fp:
             json.dump(result, fp)
-
-    if args.delete_scratch:
-        logger.info("deleting the model directory from scratch")
-        shutil.rmtree(model_path)
 
 
 if __name__ == "__main__":
